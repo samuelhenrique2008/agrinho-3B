@@ -1,43 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Flashcard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festejando a Conexão do Campo à Cidade</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #f2f2f2, #ffffff);
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+
+    section {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5em;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 1em;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
 </head>
 <body>
-    <main>
-        <section id="container">
-            <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        O que é JavaScript?
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        O JavaScript é uma linguagem de programação
-                    </div>
-                </div>
-            </article>
-            <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        O que é CSS?
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        O CSS é uma linguagem de estilização
-                    </div>
-                </div>
 
+  <header>
+    <h1>Festejando a Conexão do Campo à Cidade</h1>
+    <p>Uma celebração da cultura, da terra e da união</p>
+  </header>
 
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
-    </footer>
-    
+  <section>
+    <div class="intro">
+      <h2>Do interior às avenidas</h2>
+      <p>Esta festa celebra os laços entre o mundo rural e o urbano — uma mistura de tradições, sabores, ritmos e histórias.</p>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1585241936934-60c45d3503ab" alt="Tradições rurais">
+        <h3>Tradições Rurais</h3>
+        <p>Dança, cantos e histórias que atravessam gerações no campo.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1602524817423-42996d1c8b4c" alt="Sabores da cidade">
+        <h3>Sabores Urbanos</h3>
+        <p>Gastronomia que une ingredientes da terra com a criatividade urbana.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1572560803507-cf7fa1bd1c2e" alt="Fusão cultural">
+        <h3>Fusão Cultural</h3>
+        <p>Música, arte e festividades que mostram a beleza da convivência.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Conexão Campo-Cidade. Todos os direitos reservados.</p>
+  </footer>
+
 </body>
 </html>
